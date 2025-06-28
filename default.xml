@@ -1,16 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
   <remote  name="github"
            fetch="https://github.com" />
+
   <default revision="main"
            remote="github"
            sync-j="4" />
 
-  <project path="web" name="web" >
-  <project path="server" name="server" >
-  <project path="api" name="blockchain-api" >
+  <project path="web" name="web" />
+  <project path="server" name="server" />
+  <project path="api" name="blockchain-api" />
 
-  <project path="nginx" name="nginx" >
+  <project path="nginx" name="nginx" />
 
   <project path="Dockerfile" name="Dockerfile" >
     <linkfile src="Dockerfile-API" dest="api/Dockerfile" />
@@ -19,4 +20,5 @@
     <linkfile src="Dockerfile-Nginx" dest="nginx/Dockerfile" />
     <linkfile src="docker-compose.yml" dest="docker-compose.yml" />
   </project>
+
 </manifest>
