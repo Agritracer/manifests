@@ -15,5 +15,6 @@
     <linkfile src="Dockerfile-API" dest="api/Dockerfile" />
     <linkfile src="Dockerfile-Server" dest="server/Dockerfile" />
     <linkfile src="Dockerfile-Web" dest="web/Dockerfile" />
+    <linkfile src="docker-compose.yml" dest="docker-compose.yml" />
   </project>
 </manifest>
