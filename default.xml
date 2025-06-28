@@ -14,11 +14,11 @@
   <project path="nginx" name="nginx" />
 
   <project path="Dockerfile" name="Dockerfile" >
-    <linkfile src="Dockerfile-API" dest="api/Dockerfile" />
-    <linkfile src="Dockerfile-Server" dest="server/Dockerfile" />
-    <linkfile src="Dockerfile-Web" dest="web/Dockerfile" />
-    <linkfile src="Dockerfile-Nginx" dest="nginx/Dockerfile" />
-    <linkfile src="docker-compose.yml" dest="docker-compose.yml" />
+    <copyfile src="Dockerfile-API" dest="api/Dockerfile" />
+    <copyfile src="Dockerfile-Server" dest="server/Dockerfile" />
+    <copyfile src="Dockerfile-Web" dest="web/Dockerfile" />
+    <copyfile src="Dockerfile-Nginx" dest="nginx/Dockerfile" />
+    <copyfile src="docker-compose.yml" dest="docker-compose.yml" />
   </project>
 
 </manifest>
