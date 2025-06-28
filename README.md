@@ -22,7 +22,7 @@ Hệ điều hành: Debian 64-bit (hoặc tương thích)
 ### 1. Cấu hình GitHub cá nhân
 
 ```bash
-git config --global user.name "HỌ TÊN CỦA BẠN"
+git config --global user.name "username"
 git config --global user.email "email@example.com"
 ```
 
