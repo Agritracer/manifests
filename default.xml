@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com" />
+  <default revision="main"
+           remote="github"
+           sync-j="4" />
+
+  <project path="web" name="web" >
+  <project path="server" name="server" >
+  <project path="api" name="blockchain-api" >
+
+  <project path="Dockerfile" name="Dockerfile" >
+    <linkfile src="Dockerfile-API" dest="api/Dockerfile" />
+    <linkfile src="Dockerfile-Server" dest="server/Dockerfile" />
+    <linkfile src="Dockerfile-Web" dest="web/Dockerfile" />
+  </project>
+</manifest>
