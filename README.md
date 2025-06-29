@@ -75,7 +75,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ---
 
 ## 🚀 Triển Khai Hệ Thống
-📌 Chỉnh sửa File trong thư mục **Enviroment** trước khi deploy
+📌 Chỉnh sửa File trong thư mục [**Enviroment**](https://github.com/Agritracer/Enviroment.git) trước khi deploy
 
 ```bash
 cd ~/Agritracer
