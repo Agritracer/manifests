@@ -11,11 +11,7 @@
   <project path="server" name="server" />
   <project path="api" name="blockchain-api" />
 
-  <project path="Enviroment" name="Enviroment" >
-    <copyfile src="api/Enviroment" dest="api/.env" />
-    <copyfile src="server/Enviroment" dest="server/.env" />
-    <copyfile src="web/Enviroment" dest="server/.env" />
-  </project>
+  <project path="Enviroment" name="Enviroment" />
 
   <project path="nginx" name="nginx" />
 
