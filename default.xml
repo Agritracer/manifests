@@ -14,7 +14,7 @@
   <project path="Enviroment" name="Enviroment" >
     <copyfile src="api/Enviroment" dest="api/.env" />
     <copyfile src="server/Enviroment" dest="server/.env" />
-    <copyfile src="web/Enviroment" dest="server/.env" />
+    <copyfile src="web/Enviroment" dest="web/.env" />
   </project>
 
   <project path="nginx" name="nginx" />
