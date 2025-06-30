@@ -65,10 +65,23 @@ sudo systemctl enable docker.service
 ---
 
 ## 🔄 Đồng Bộ Mã Nguồn
-
+### Vào folder chứa mã nguồn (hiện tại trống hoặc chỉ có `bin`)
 ```bash
 cd ~/Agritracer
+```
+
+### Nếu bạn deploy môi trường development
+```bash
 repo init -u https://github.com/Agritracer/manifests.git -b main
+```
+
+### Nếu bạn deploy môi trường production
+```bash
+repo init -u https://github.com/Agritracer/manifests.git -b main
+```
+
+### Bắt đầu quá trình đồng bộ hoá mã nguồn
+```bash
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
