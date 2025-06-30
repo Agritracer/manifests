@@ -13,9 +13,9 @@
 
   <project path="Enviroment" name="Enviroment" />
 
-  <project path="nginx" name="nginx" />
+  <project path="nginx" name="nginx" revision="dev" />
 
-  <project path="Dockerfile" name="Dockerfile" >
+  <project path="Dockerfile" name="Dockerfile" revision="dev" >
     <copyfile src="Dockerfile-API" dest="api/Dockerfile" />
     <copyfile src="Dockerfile-Server" dest="server/Dockerfile" />
     <copyfile src="Dockerfile-Web" dest="web/Dockerfile" />
