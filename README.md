@@ -77,7 +77,7 @@ repo init -u https://github.com/Agritracer/manifests.git -b dev
 
 ### Nếu bạn muốn triển khai dưới môi trường Production
 ```bash
-repo init -u https://github.com/Agritracer/manifests.git -b dev
+repo init -u https://github.com/Agritracer/manifests.git -b main
 ```
 
 ### Bắt đầu quá trình đồng bộ hoá
