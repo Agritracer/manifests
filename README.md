@@ -12,7 +12,7 @@
 CPU:    Intel x86_64, 2 nhân
 RAM:    Tối thiểu 4GB
 Ổ đĩa:  Tối thiểu 50GB
-Hệ điều hành: Debian 64-bit (hoặc tương thích)
+Hệ điều hành: Debian 64-bit (hoặc có dockerd)
 ```
 
 ---
